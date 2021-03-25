@@ -8,6 +8,11 @@ flask = "*"
 flask-sqlalchemy = "*"
 requests = "*"
 tweepy = "*"
+pandas = "*"
+python-dotenv = "*"
+sklearn = "*"
+flask-migrate = "*"
+numpy = "*"
 
 [dev-packages]
 

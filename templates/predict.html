@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/predictions" method="post">
+    <h1>Who's Average Number of Favorites Do <br> You Want to Predict?</h1>
+    <input type="text" name="username" placeholder="Enter username">
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

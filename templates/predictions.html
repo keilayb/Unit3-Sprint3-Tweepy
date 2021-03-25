@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <h2>Predicting <u>{{ username }}'s</u> Average Number of Favorites</h2>
+</div>
+<div>
+    <h5>A trained RandomForestRegressor model predicts that, on average, a {{ username }} tweet will have {{ avg_num_faves }} favorites.</h5>
+    <br>
+    <h5>The true number of average favorites for a {{ username }} tweet is {{ true_num }}.</h5>
+    <br>
+    <h5>The RandomForestRegressor model has an mean absolute error of {{ score }}.</h5>
+</div>
+{% endblock %}
